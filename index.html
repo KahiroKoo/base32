@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="edbase32 : encode or decode string in base32">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>edbase32</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/KahiroKoo/edBase32">View on GitHub</a>
+
+          <h1 id="project_title">edbase32</h1>
+          <h2 id="project_tagline">encode or decode string in base32</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/KahiroKoo/edBase32/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/KahiroKoo/edBase32/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="edbase32" class="anchor" href="#edbase32" aria-hidden="true"><span class="octicon octicon-link"></span></a>edbase32</h3>
+
+<p>edbase32 is the RFC 3548 base32 encoding and decoding tool. </p>
+
+<h3>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h3>
+
+<pre><code>npm install edbase32
+</code></pre>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<pre><code>var base32 = require('edbase32');
+var s = 'abc';
+console.log('source:' + s);
+//source:abc
+var es = base32.encode(s);
+console.log('encoded string:' + es);
+//encoded string:MFRGG===
+var ds = base32.decode(es);
+console.log('decoded string:' + ds);
+//decoded string:abc
+</code></pre>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>This library is licensed under MIT.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">edbase32 maintained by <a href="https://github.com/KahiroKoo">KahiroKoo</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
