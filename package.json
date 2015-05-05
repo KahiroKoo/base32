@@ -1,0 +1,14 @@
+{
+    "name": "edbase32",
+    "version": "0.0.9",
+    "description": "Node.js module to encode and decode base32 string",
+    "preferGlobal": "true",
+    "main": "./lib/base32.js",
+    "author": "Kahiro Koo",
+    "keywords": ["base32", "decoder", "encoder"],
+    "type": "git",
+    "url": "https://kahirokoo@github.com/kahirokoo/edBase32.git",
+    "dependencies": {},
+    "engines": { "node": "*" },
+    "license": "MIT"
+}
